@@ -1,8 +1,10 @@
-This was an assignment for CSC 357 at Cal Poly
+This is my own implementation of Malloc & Free - working memory allocation - in C
+<br/>
+This was an assignment for CSC 357 (Systems Programming) at Cal Poly
 <hr/>
 What's included :
 <ul>
-  <li>Assignment prompt (pdf from Christian Echkardt)</li>
+  <li>Assignment prompt (pdf from Prof. Christian Echkardt)</li>
   <li>C files (with actual program break moving)</li>
   <li>C++ files (with simulated program break movement)</li>
 </ul>
