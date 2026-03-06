@@ -12,7 +12,7 @@ What's included :
 Implementation Details :
 <br/><br/>
 <ul>
-  <li>Implemented a custom heap using a doubly linked list of memory chunks, with in-band metadata storing block size, allocation state, and neighboring pointers</li>
+  <li>Implemented a custom heap storing function using a doubly linked list of memory chunks, with in-band metadata storing block size, allocation state, and neighboring pointers</li>
   <br/>
   <li>Used a best-fit allocation strategy to select the smallest free block that satisfies a request, reducing fragmentation</li>
   <br/>
