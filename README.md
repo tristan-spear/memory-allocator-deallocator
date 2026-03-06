@@ -12,7 +12,9 @@ What's included :
 Implementation Details :
 <br/><br/>
 <ul>
-  <li>Implemented a custom heap storing function using a doubly linked list of memory chunks, with in-band metadata storing block size, allocation state, and neighboring pointers</li>
+  <li>Implemented a custom heap memory allocator & deallocator by manually moving the program break using brk() & sbrk().</li>
+  <br/>
+  <li>Used a doubly linked list of memory chunks, with chunk metadata storing block size, allocation state, and neighboring pointers</li>
   <br/>
   <li>Used a best-fit allocation strategy to select the smallest free block that satisfies a request, reducing fragmentation</li>
   <br/>
